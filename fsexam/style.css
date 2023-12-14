@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#shopping-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 90px;
+    align-items: center;
+}
+
+.shopping-item {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px 40px;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #000;
+    font-weight: bold;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #f00;
+}
+
+.cac:hover {
+    color: #f00;
+    cursor: pointer;
+}
+
+nav h1 {
+    margin-left: 5px;
+}
+
+.btn {
+    background-color: rgb(8, 0, 255);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.cart-container {
+    position: absolute;
+    background: white;
+    top: 12%;
+    padding: 10px;
+    border-radius: 10px;
+    right: 1%;
+    box-shadow: 0px 0px 15px #00000054;
+}
+
+.cart-container h2 {
+    margin: 1rem 0;
+    text-align: center;
+}
+
+.cart-list {
+    display: flex;
+    border: 2px solid #d8d8d8;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+}
+
+.prod-detail {
+    font-size: smaller;
+    padding: 4px;
+}
+
+.btn2 {
+    background-color: rgb(45, 43, 102);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.hide {
+    display: none;
+}
+
+.message {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #d8d8d8;
+}
